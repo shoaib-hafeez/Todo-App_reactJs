@@ -120,6 +120,7 @@ const Todos = () => {
           </label>
         </div>
       </div>
+      <br /><br /><br />
 
       {/*yaha hum array ki list display karva rhy hen */}
       <div className="tasks_container">
