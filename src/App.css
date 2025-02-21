@@ -1,0 +1,93 @@
+/* #root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+} */
+
+.todo_container{
+  width: 100%;
+  max-width: 90%;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+  background-color: #f8dede3c;
+  height: 100vh;
+}
+
+.todo_form{
+  width: 100%;
+  max-width: 90%;
+  margin:  0 auto;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 2rem;
+
+
+}
+ input{
+  /* width: 40%; */
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  outline: none;
+  margin: 15px 5px;
+
+}
+.todo_form button{
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #f0f0f0;
+  margin-left: 1rem;
+  cursor: pointer;
+  outline: none;
+}
+
+.tasks_container{
+  width: 100%;
+  max-width: 98%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  /* background-color: antiquewhite; */
+}
+.task_card{
+  width: 100%;
+  max-width: 90%;
+  margin: 0 auto;
+  padding: 10px;
+  margin: 5px;
+  border-radius: 5px;
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+.task_actions{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+.task_actions button{
+  padding: 5px 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #f0f0f0;
+  cursor: pointer;
+  outline: none;
+}
+.filters_container{
+  width: 100%;
+  max-width: 91%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  height: 60px;
+}
